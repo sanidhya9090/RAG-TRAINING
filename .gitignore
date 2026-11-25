@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Local vector database (rebuilt automatically)
+qdrant_db/
+
+# Copyrighted textbook PDFs
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
